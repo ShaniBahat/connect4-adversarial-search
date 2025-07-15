@@ -7,7 +7,7 @@ _A comparative study of Minimax, Alpha‑Beta Pruning, and Best‑First Minima
 ## Project Overview
 This project implements three classic adversarial‑search algorithms—**Minimax**, **Alpha‑Beta Pruning**, and **Best‑First Minimax** and benchmarks their performance on the 6 × 7 Connect Four game tree. By replaying identical board states to increasing search depths, we measure each algorithm’s **runtime** and **number of nodes expanded**, revealing how smart pruning and selective expansion can dramatically speed‑up optimal play.
 
-<img src="assets/connect4_board.png" alt="Connect‑Four Board" width="450">
+<img src="assets/connect4_board.png" alt="Connect‑Four Board" width="350">
 
 ---
 
@@ -45,9 +45,9 @@ This heuristic guides both pruning decisions (Alpha‑Beta) and node ordering (B
 | 12    | 7,129.182       | 913.469         | 7.80     | 31,849,428 | 975,894   | 32.64            |
 
 
-<img src="assets/nodes_vs_depth.png" alt="Nodes Expanded vs Depth" width="450">
+<img src="assets/nodes_vs_depth.png" alt="Nodes Expanded vs Depth" width="350">
 
-<img src="assets/time_vs_depth.png" alt="Time vs Depth" width="450">
+<img src="assets/time_vs_depth.png" alt="Time vs Depth" width="350">
 
 The table and two graphs visualize how quickly Best‑First Minimax pulls ahead as search depth grows. While both strategies prune infeasible branches, Best‑First’s targeted expansion of the principal leaf keeps its frontier tiny and search times low.
 
